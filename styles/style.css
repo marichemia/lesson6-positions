@@ -1,0 +1,208 @@
+@import url('http://fonts.cdnfonts.com/css/acumin-pro');
+
+body {
+    background-color: #F6F8F9;
+}
+
+/* header */
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 0;
+    background-color: #F6F8F9;
+    z-index: 10;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+.logo {
+    display: inline-block;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FA6980;
+    margin: 18px 20px;
+}
+
+.nav-item {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 20px;
+}
+
+.nav-item a {
+    color: #343638;
+    opacity: 50%;
+}
+
+.active a {
+    color: #343638;
+    opacity: 100%;
+}
+
+.account {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 40px;
+}
+
+/* 'trending' section */
+
+.trending {
+    position: relative;
+    top: 70px;
+    left: calc(50% - 580px);
+    width: 1250px;
+    height: 410px;
+}
+
+.trending-header {
+    width: 1025px;
+    height: 20px;
+    text-transform: uppercase;
+    font-family: Helvetica;
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 24px;
+}
+
+.trending-content-boxes {
+    display: inline-block;
+    width: 360px;
+    height: 350px;
+    margin-top: 40px;
+    margin-right: 40px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+}
+
+.trending-content-image {
+    position: relative;
+    top: 0;
+}
+
+.image-text {
+    position: absolute;
+    width: 280px;
+    height: 16px;
+    margin-left: 40px;
+    margin-top: -130px;
+    z-index: 1;
+
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+    line-height: 20;
+    color: #FFFFFF;
+}
+
+.trending-content-text {
+    position: relative;
+    width: 280px;
+    height: 38px;
+    margin-top: 50px;
+    margin-left: 40px;
+
+    font-family: 'Acumin Pro', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: left;
+    color: #A6ADB4;
+}
+
+.clock-icon {
+    display: inline-block;
+}
+
+.time {
+    position: relative;
+    display: inline-block;
+    top: -4px;
+    left: 5px;
+}
+
+.time-container {
+    position: relative;
+    top: 30px;
+}
+
+/* happening now section */
+
+.happening-now {
+    position: relative;
+    top: 150px;
+    margin-left: calc(50% - 580px);
+}
+
+.happening-now-header {
+    width: 770px;
+    height: 20px;
+    text-transform: uppercase;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: left;
+    margin-bottom: 70px;
+}
+
+.column-one {
+    display: inline-block;
+    position: relative;
+    width: 760px;
+    height: 910px;
+    top: -430px;
+    margin-right: 40px;
+}
+
+.bridge-image {
+    position: relative;
+}
+
+.bridge-image-text {
+    position: absolute;
+    top: calc(25% - 8px);
+    left: calc(50% - 80px);
+
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: left;
+    z-index: 2;
+}
+
+.wood {
+    height: 433px;
+    margin-top: 40px;
+}
+
+.wood-image {
+    position: absolute;
+}
+
+.column-two {
+    position: relative;
+    display: inline-block;
+    width: 360px;
+    height: 940px;
+    top: -20px;
+}
+
+.column-two-image {
+    margin-bottom: 102px;
+}
